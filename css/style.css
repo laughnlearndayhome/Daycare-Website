@@ -19,6 +19,59 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 
 --------------------------------------------------------------*/
+
+/* Shrink overall navbar vertical padding and font sizing */
+nav.navbar {
+  padding: 0.5rem 1rem !important; /* reduce top/bottom padding */
+  font-size: 0.9rem;                /* slightly smaller text */
+}
+
+/* Reduce spacing inside navigation container */
+nav.navbar .container-fluid,
+nav.navbar .row {
+  padding: 0;
+  margin: 0;
+}
+
+/* Shrink brand/logo image size */
+nav.navbar .navbar-brand img {
+  max-height: 40px; /* limits logo height */
+  height: auto;
+  width: auto;
+}
+
+/* Tighter nav link spacing */
+nav.navbar .navbar-nav .nav-link {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Shrink buttons in navbar, e.g. GET PRO button */
+nav.navbar .btn {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+/* Smaller toggle button icon */
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+}
+.navbar-toggler-icon {
+  background-size: 1rem 1rem;
+}
+
+/* Optionally adjust offcanvas menu spacing */
+.offcanvas-body .nav-link {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+}
+
+
+
+
+
 body {
     --heading-font: 'Playfair Display', serif;
     --heading-font-weight: 400;

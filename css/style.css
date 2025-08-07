@@ -35,7 +35,7 @@ nav.navbar .row {
 
 /* Shrink brand/logo image size */
 nav.navbar .navbar-brand img {
-  max-height: 40px; /* limits logo height */
+  max-height: 160px; /* limits logo height */
   height: auto;
   width: auto;
 }
@@ -82,7 +82,7 @@ body {
 
     --custom-easing: cubic-bezier(.17, .67, .83, .67);
 
-    --background-color: #F3EBEB;
+    --background-color: #bba7e6;
 
     --secondary-font: 'Licorice', cursive;
 

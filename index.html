@@ -249,20 +249,95 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="index.html">
-      <img src="images/logoLaughNLearn.png" alt="Laugh N Learn Daycare Logo" style="height: 150px;">
+      <img src="logoLaughnLearn.png" alt="Laugh N Learn Logo" height="50">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
-        <li class="nav-item"><a class="nav-link" href="educators.html">EDUCATORS</a></li>
-        <li class="nav-item"><a class="nav-link" href="resources.html">FAMILY RESOURCES</a></li>
-        <li class="nav-item"><a class="nav-link" href="careers.html">EMPLOYMENT/CAREER </a></li>
-        <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQs</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+
+        <!-- HOME -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+
+        <!-- ABOUT US -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            ABOUT US
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <li><a class="dropdown-item" href="#">Who we are</a></li>
+            <li><a class="dropdown-item" href="#">Our Philosophy</a></li>
+          </ul>
+        </li>
+
+        <!-- EDUCATORS -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="educatorsDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            EDUCATORS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="educatorsDropdown">
+            <li><a class="dropdown-item" href="#">Screening requirements</a></li>
+            <li><a class="dropdown-item" href="#">Training and workshop</a></li>
+          </ul>
+        </li>
+
+        <!-- FAMILY RESOURCES -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="familyDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            FAMILY RESOURCES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="familyDropdown">
+            <li><a class="dropdown-item" href="#">Child care subsidy + Affordability Grant</a></li>
+            <li><a class="dropdown-item" href="#">Parent Resources</a></li>
+            <li><a class="dropdown-item" href="#">Child's Health</a></li>
+            <li><a class="dropdown-item" href="#">Community Resources</a></li>
+            <li><a class="dropdown-item" href="#">Parent tour</a></li>
+          </ul>
+        </li>
+
+        <!-- EMPLOYMENT/CAREER -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="careerDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            EMPLOYMENT/CAREER
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="careerDropdown">
+            <li><a class="dropdown-item" href="#">What we offer</a></li>
+            <li><a class="dropdown-item" href="#">What we need from you</a></li>
+          </ul>
+        </li>
+
+        <!-- FAQ -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="faqDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            FAQ
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="faqDropdown">
+            <li><a class="dropdown-item" href="#">Why Choose Us?</a></li>
+            <li><a class="dropdown-item" href="#">General Information</a></li>
+            <li><a class="dropdown-item" href="#">Enrollment and Registration</a></li>
+            <li><a class="dropdown-item" href="#">Fees and payments</a></li>
+            <li><a class="dropdown-item" href="#">Daily activities</a></li>
+            <li><a class="dropdown-item" href="#">Health and safety</a></li>
+            <li><a class="dropdown-item" href="#">Communication and feedback</a></li>
+            <li><a class="dropdown-item" href="#">Miscellaneous</a></li>
+          </ul>
+        </li>
+
+        <!-- CONTACT US -->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT US</a>
+        </li>
+
       </ul>
     </div>
   </div>

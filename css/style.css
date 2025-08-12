@@ -91,6 +91,26 @@ nav.navbar .btn {
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
 
+#about {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+#about h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+#about h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+#about h4 {
+  margin-top: 20px;
+  color: #2a6a4f;
+}
+#about p {
+  line-height: 1.6;
+}
+
 
 body {
     --heading-font: 'Playfair Display', serif;

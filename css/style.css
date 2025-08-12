@@ -78,6 +78,20 @@ nav.navbar .btn {
 }
 
 
+.green-input {
+  background-color: #e6f5e6; /* light green background */
+  border: 1px solid #7fbf7f; /* medium green border */
+  padding: 8px;
+}
+
+.green-input:focus {
+  background-color: #d0f0d0; /* slightly darker green on focus */
+  outline: none;
+  border-color: #4CAF50; /* brighter green border */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+
 body {
     --heading-font: 'Playfair Display', serif;
     --heading-font-weight: 400;

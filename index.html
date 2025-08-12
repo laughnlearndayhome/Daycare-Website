@@ -260,9 +260,7 @@
       <ul class="navbar-nav ms-auto">
 
         <!-- HOME -->
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">HOME</a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
 
         <!-- ABOUT US -->
         <li class="nav-item dropdown">
@@ -500,6 +498,70 @@
     </div>
   </div>
 </section>
+
+<!-- HOME Section -->
+<section id="home" class="py-5">
+  <div class="container">
+    <h2><strong>Home</strong></h2>
+    <h4 class="mb-4">Offering Before & After School Care</h4>
+    <p>For kindergarten to Grade 6, including a full kindergarten program. Registration and Waitlist submission here:</p>
+
+    <form action="#" method="post" class="registration-form">
+      <div class="mb-3">
+        <label for="parentName" class="form-label">Name of Parent/Caregiver Requesting:</label>
+        <input type="text" class="form-control green-input" id="parentName" name="parentName" required>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number:</label>
+        <input type="tel" class="form-control green-input" id="phone" name="phone" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address:</label>
+        <input type="email" class="form-control green-input" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="careRequest" class="form-label">Care Request for:</label>
+        <select id="careRequest" name="careRequest" class="form-control green-input" required>
+          <option value="">-- Select --</option>
+          <option>Kinder-care, Full Day</option>
+          <option>Kinder-care, Part Time</option>
+          <option>Grade 1-6, Full Time</option>
+          <option>Grade 1-6, Part Time</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="childName" class="form-label">Name of Child:</label>
+        <input type="text" class="form-control green-input" id="childName" name="childName" required>
+      </div>
+      <div class="mb-3">
+        <label for="dob" class="form-label">Child's Date of Birth (yyyy-mm-dd):</label>
+        <input type="date" class="form-control green-input" id="dob" name="dob" required>
+      </div>
+      <div class="mb-3">
+        <label for="school" class="form-label">School Child Attends:</label>
+        <input type="text" class="form-control green-input" id="school" name="school" required>
+      </div>
+      <div class="mb-3">
+        <label for="grade" class="form-label">Child's Grade in September:</label>
+        <input type="text" class="form-control green-input" id="grade" name="grade" required>
+      </div>
+      <div class="mb-3">
+        <label for="startDate" class="form-label">Preferred Start Date:</label>
+        <input type="date" class="form-control green-input" id="startDate" name="startDate" required>
+      </div>
+      <div class="mb-3">
+        <label for="additionalInfo" class="form-label">Registration Additional Information:</label>
+        <textarea class="form-control green-input" id="additionalInfo" name="additionalInfo" rows="3"></textarea>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="notRobot" required>
+        <label class="form-check-label" for="notRobot">I am not a robot</label>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+</section>
+
 <!-- Testimonials -->
 <section class="py-5">
   <div class="container">

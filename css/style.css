@@ -91,11 +91,11 @@ nav.navbar .btn {
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
 
-#about {
+#about, #educators, #family-resources, #employment  {
   font-family: Arial, sans-serif;
   color: #333;
 }
-#about h2 {
+#about h2, #educators h2, #family-resources h2, #employment h2 {
   font-size: 2em;
   margin-bottom: 10px;
 }
@@ -103,12 +103,53 @@ nav.navbar .btn {
   font-size: 1.5em;
   margin-top: 0;
 }
-#about h4 {
+#about h4, #educators h4, #family-resources h4, #employment h4 {
   margin-top: 20px;
   color: #2a6a4f;
 }
 #about p {
   line-height: 1.6;
+}
+
+
+
+#educators p {
+  line-height: 1.6;
+}
+
+
+
+#family-resources p, 
+#family-resources ul {
+  line-height: 1.6;
+}
+#family-resources ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#family-resources a {
+  color: #2a6a4f;
+  text-decoration: underline;
+}
+#family-resources a:hover {
+  text-decoration: none;
+}
+
+
+#employment p, 
+#employment ul {
+  line-height: 1.6;
+}
+#employment ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#employment a {
+  color: #2a6a4f;
+  text-decoration: underline;
+}
+#employment a:hover {
+  text-decoration: none;
 }
 
 
